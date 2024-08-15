@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crop Information App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Crop Information App</h1>
+        <p>Select a crop to learn more about it:</p>
+        <select id="crop-select">
+            <option value="none">-- Select a Crop --</option>
+            <option value="wheat">Wheat</option>
+            <option value="rice">Rice</option>
+            <option value="corn">Corn</option>
+        </select>
+        <div id="crop-info" class="hidden">
+            <h2 id="crop-name"></h2>
+            <p id="crop-description"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
